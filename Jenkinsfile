@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/ramki7/react-app.git'
+                git 'https://github.com/devops1593/SinglePage-app.git'
             }
         }
         stage('Test') {
