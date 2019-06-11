@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent {label 'react-node'}
 
     stages {
         stage('Build') {
