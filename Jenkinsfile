@@ -2,7 +2,7 @@ pipeline {
    
     agent any
     stages {
-        stage('Build') {
+        stage('checkout') {
             steps {
                 git 'https://github.com/devops1593/SinglePage-app.git'
             }
